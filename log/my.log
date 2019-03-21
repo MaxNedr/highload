@@ -1,0 +1,8 @@
+[2019-03-20 18:52:59] name.WARNING: Foo [] []
+[2019-03-20 18:52:59] name.ERROR: Bar [] []
+[2019-03-21 16:00:52] name.WARNING: Foo [] []
+[2019-03-21 16:00:52] name.ERROR: Bar [] []
+[2019-03-21 16:02:00] name.WARNING: Foo [] []
+[2019-03-21 16:02:00] name.ERROR: Bar [] []
+[2019-03-21 16:03:04] name.WARNING: Foo [] []
+[2019-03-21 16:03:04] name.ERROR: Bar [] []
