@@ -1,0 +1,7 @@
+2019-03-24T08:53:49.753966Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.15-5) initializing of server in progress as process 31985
+2019-03-24T08:53:55.288880Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: qUemzfrai2;F
+2019-03-24T08:53:57.557422Z 0 [System] [MY-013170] [Server] /usr/sbin/mysqld (mysqld 8.0.15-5) initializing of server has completed
+2019-03-24T08:54:01.296237Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.15-5) starting as process 32036
+2019-03-24T08:54:02.358998Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-03-24T08:54:02.421432Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.15-5'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Percona Server (GPL), Release 5, Revision f8a9e99.
+2019-03-24T08:54:02.673554Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/lib/mysql/mysqlx.sock' bind-address: '::' port: 33060

@@ -15,12 +15,19 @@ $time_start = time();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-function req(){
-    echo 1;
-    req();
+function deep_end( $count ) {
+    // добавляем 1 к параметру count
+    $count += 1;
+    if ( $count < 48 ) {
+        deep_end( $count );
+    }
+    else {
+        trigger_error( "going off the deep end!" );
+    }
 }
+deep_end( 1 );
 
-req();
+
 $time_end = time();
 
 $log = new Logger('time');
@@ -32,3 +39,5 @@ $log->debug($time_end - $time_start);
 
 
 
+
+//phpinfo();
